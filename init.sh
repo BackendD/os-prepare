@@ -30,4 +30,4 @@ clear;
 
 ## Show guide
 neofetch;
-curl -sLf https://osp.gitme.cf/guide.md | mdless;
+curl -sLf https://osp.gitme.cf/guide.md | mdless -P;
