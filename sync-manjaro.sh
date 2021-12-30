@@ -1,6 +1,5 @@
 #!/bin/sh
 
-sudo pacman --noconfirm rclone;
 rclone config create google drive;
 
 ## Shell config
