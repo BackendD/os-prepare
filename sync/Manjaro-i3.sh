@@ -18,6 +18,9 @@ rclone sync ~/.config/rofi google:.config/rofi;
 ## i3 Config
 rclone sync ~/.i3 google:.i3;
 
+## Editors
+rclone sync ~/.local/share/kate google:.local/share/kate;
+
 ## Audio & Cmus
 rclone sync ~/Music google:Music;
 rclone sync ~/.config/cmus google:.config/cmus;
