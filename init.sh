@@ -6,15 +6,15 @@ OS_TYPE=$(head -n 1 /etc/issue | awk '{print $1;}')
 case $OS_TYPE in
 
     Manjaro)
-        curl -sLf https://osp.gitme.cf/init-Manjaro.sh | bash;
+        curl -sLf https://osp.gitme.cf/init/Manjaro.sh | bash;
         ;;
 
     EndeavourOS)
-        curl -sLf https://osp.gitme.cf/init-EndeavourOS.sh | bash;
+        curl -sLf https://osp.gitme.cf/init/EndeavourOS.sh | bash;
         ;;
 
     Arch)
-        curl -sLf https://osp.gitme.cf/init-Arch.sh | bash;
+        curl -sLf https://osp.gitme.cf/init/Arch.sh | bash;
         ;;
 
     *)
