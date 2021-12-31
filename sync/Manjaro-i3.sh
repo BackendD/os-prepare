@@ -22,5 +22,10 @@ rclone sync ~/.i3 google:.i3;
 rclone sync ~/Music google:Music;
 rclone sync ~/.config/cmus google:.config/cmus;
 
+## Multiplayer
+rclone sync ~/.config/mpv/mpv.conf google:.config/mpv;
+rclone sync ~/.config/mpv/input.conf google:.config/mpv;
+rclone sync ~/.config/vlc google:.config/vlc;
+
 ## Compositor
-rclone sync ~/.config/picom.conf google:.config/picom.conf;
+rclone sync ~/.config/picom.conf google:.config;
