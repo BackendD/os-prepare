@@ -38,3 +38,9 @@ rclone sync ~/.config/picom.conf google:.config;
 
 ## Eagle
 rclone sync ~/EAGLE google:EAGLE;
+
+## Pictures
+rclone sync ~/Pictures google:Pictures;
+
+## Documents
+rclone sync ~/Documents google:Documents;
