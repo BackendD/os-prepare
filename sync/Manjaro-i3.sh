@@ -12,6 +12,9 @@ rclone sync ~/.local/share/konsole google:.local/share/konsole;
 ## SSH
 rclone sync ~/.ssh google:.ssh;
 
+## File Manager
+rclone sync ~/.local/share/dolphin google:.local/share/dolphin;
+
 ## Rofi
 rclone sync ~/.config/rofi google:.config/rofi;
 
