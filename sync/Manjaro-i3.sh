@@ -44,3 +44,6 @@ rclone sync ~/Pictures google:Pictures;
 
 ## Documents
 rclone sync ~/Documents google:Documents;
+
+## Workspace
+rclone sync ~/Workspace/statics google:Workspace/statics;
