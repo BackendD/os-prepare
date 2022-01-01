@@ -3,47 +3,50 @@
 rclone config create google drive;
 
 ## Shell config
-rclone sync ~/.zshrc google:;
-rclone sync ~/.zsh_history google:;
+rclone sync --progress ~/.zshrc google:;
+rclone sync --progress ~/.zsh_history google:;
 
 ## Konsole
-rclone sync ~/.local/share/konsole google:.local/share/konsole;
+rclone sync --progress ~/.local/share/konsole google:.local/share/konsole;
 
 ## SSH
-rclone sync ~/.ssh google:.ssh;
+rclone sync --progress ~/.ssh google:.ssh;
 
 ## File Manager
-rclone sync ~/.local/share/dolphin google:.local/share/dolphin;
+rclone sync --progress ~/.local/share/dolphin google:.local/share/dolphin;
 
 ## Rofi
-rclone sync ~/.config/rofi google:.config/rofi;
+rclone sync --progress ~/.config/rofi google:.config/rofi;
 
 ## i3 Config
-rclone sync ~/.i3 google:.i3;
+rclone sync --progress ~/.i3 google:.i3;
 
 ## Editors
-rclone sync ~/.local/share/kate google:.local/share/kate;
+rclone sync --progress ~/.local/share/kate google:.local/share/kate;
 
 ## Audio & Cmus
-rclone sync ~/Music google:Music;
-rclone sync ~/.config/cmus google:.config/cmus;
+rclone sync --progress ~/Music google:Music;
+rclone sync --progress ~/.config/cmus google:.config/cmus;
 
 ## Multiplayer
-rclone sync ~/.config/mpv/mpv.conf google:.config/mpv;
-rclone sync ~/.config/mpv/input.conf google:.config/mpv;
-rclone sync ~/.config/vlc google:.config/vlc;
+rclone sync --progress ~/.config/mpv/mpv.conf google:.config/mpv;
+rclone sync --progress ~/.config/mpv/input.conf google:.config/mpv;
+rclone sync --progress ~/.config/vlc google:.config/vlc;
 
 ## Compositor
-rclone sync ~/.config/picom.conf google:.config;
+rclone sync --progress ~/.config/picom.conf google:.config;
 
 ## Eagle
-rclone sync ~/EAGLE google:EAGLE;
+rclone sync --progress ~/EAGLE google:EAGLE;
 
 ## Pictures
-rclone sync ~/Pictures google:Pictures;
+rclone sync --progress ~/Pictures google:Pictures;
 
 ## Documents
-rclone sync ~/Documents google:Documents;
+rclone sync --progress ~/Documents google:Documents;
 
 ## Workspace
-rclone sync ~/Workspace/statics google:Workspace/statics;
+rclone sync --progress ~/Workspace/statics google:Workspace/statics;
+
+## User bin
+rclone sync --progress ~/.local/bin google:.local/bin;
