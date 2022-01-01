@@ -32,3 +32,6 @@ rclone sync ~/.config/vlc google:.config/vlc;
 
 ## Compositor
 rclone sync ~/.config/picom.conf google:.config;
+
+## Eagle
+rclone sync ~/EAGLE google:EAGLE;
