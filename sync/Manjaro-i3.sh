@@ -45,7 +45,7 @@ rclone sync --progress ~/Pictures google:Pictures;
 ## Documents
 rclone sync --progress ~/Documents google:Documents;
 
-## Workspace
+## Workspace statics
 rclone sync --progress ~/Workspace/statics google:Workspace/statics;
 
 ## User bin
