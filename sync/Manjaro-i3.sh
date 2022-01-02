@@ -36,6 +36,9 @@ rclone sync --progress ~/.config/vlc google:.config/vlc;
 ## Compositor
 rclone sync --progress ~/.config/picom.conf google:.config;
 
+## Theme
+rclone sync --progress ~/.config/Kvantum google:.config/Kvantum;
+
 ## Eagle
 rclone sync --progress ~/EAGLE google:EAGLE;
 
